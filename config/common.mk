@@ -66,12 +66,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
         Busybox
 
+# SIM Toolkit
+PRODUCT_PACKAGES += \
+    Stk
+        
 # DSPManager
 PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf
 
-# Browser sync
-PRODUCT_COPY_FILES += \
-    vendor/purity/prebuilt/apk/BookmarksSyncAdapter.apk:system/app/BookmarksSyncAdapter.apk
+
