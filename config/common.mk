@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
 
 # SuperSU
 PRODUCT_COPY_FILES += \
+    vendor/purity/prebuilt/bin/su:system/xbin/daemonsu \
     vendor/purity/prebuilt/bin/su:system/xbin/su \
     vendor/purity/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
     vendor/purity/prebuilt/apk/Superuser.apk:system/app/Superuser.apk
