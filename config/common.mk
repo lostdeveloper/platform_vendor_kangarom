@@ -72,11 +72,5 @@ PRODUCT_PACKAGES += \
 # SIM Toolkit
 PRODUCT_PACKAGES += \
     Stk
-        
-# DSPManager
-PRODUCT_PACKAGES += \
-    DSPManager \
-    libcyanogen-dsp \
-    audio_effects.conf
-
+       
 
