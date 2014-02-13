@@ -113,9 +113,8 @@
   <apn carrier="MMS Vodafone" mcc="214" mnc="06" apn="mms.vodafone.net" user="wap@wap" password="wap125" mmsc="http://mmsc.vodafone.es/servlets/mms" mmsproxy="212.73.32.10" mmsport="80" type="mms" />
   <apn carrier="Movistar ES" mcc="214" mnc="07" apn="movistar.es" user="MOVISTAR" password="MOVISTAR" type="default,supl" />
   <apn carrier="Movistar ES-MMS" mcc="214" mnc="07" apn="telefonica.es" user="telefonica" password="telefonica" mmsc="http://mms.movistar.com" mmsproxy="10.138.255.5" mmsport="8080" type="mms" />
-  <apn carrier="blau ES" mcc="214" mnc="19" apn="gprs-service.com" mmsc="http://217.18.32.180:8080" mmsproxy="217.18.32.181" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Simyo ES" mcc="214" mnc="19" apn="gprs-service.com" type="default,supl" />
-  <apn carrier="Simyo ES-MMS" mcc="214" mnc="19" apn="gprs-service.com" password="1234" mmsc="http://mms-services.eu" mmsproxy="217.12.32.180" mmsport="8080" type="mms" />
+  <apn carrier="Simyo ES-MMS" mcc="214" mnc="19" apn="gprs-service.com" mmsc="http://217.18.32.180:8080" mmsproxy="217.18.32.181" mmsport="8080" type="mms" />
   <apn carrier="Jazztel" mcc="214" mnc="21" apn="jazzinternet" type="default,supl" />
   <apn carrier="Jazztel MMS" mcc="214" mnc="21" apn="jazzmms" mmsc="http://jazztelmms.com:8081" mmsproxy="217.18.32.183" mmsport="8081" type="mms" />
   <apn carrier="Pannon MMS" mcc="216" mnc="01" apn="mms" mmsc="http://mmsc.pgsm.hu/" mmsproxy="193.225.154.22" mmsport="8080" type="mms" />
@@ -291,12 +290,11 @@
   <apn carrier="Telenor MMS" mcc="240" mnc="09" apn="services.telenor.se" mmsc="http://mms" mmsproxy="173.30.253.241" mmsport="8799" type="mms" />
   <apn carrier="Spring data" mcc="240" mnc="10" apn="data.springmobil.se" type="default,supl" />
   <apn carrier="Spring MMS" mcc="240" mnc="10" apn="mms.springmobil.se" mmsc="http://mms.springmobil.se" mmsproxy="213.88.184.37" mmsport="8080" type="mms" />
-  <apn carrier="Ludo Internet" mcc="242" mnc="01" apn="internet.ventelo.no" type="default,supl" />
-  <apn carrier="Ludo MMS" mcc="242" mnc="01" apn="mms.ventelo.no" user="ventelo" password="1111" mmsc="http://mmsc/" mmsproxy="10.10.10.11" mmsport="8080" type="mms" />
-  <apn carrier="Telenor MMS" mcc="242" mnc="01" apn="mms" mmsc="http://mmsc/" mmsproxy="10.10.10.11" mmsport="8080" type="mms" />
-  <apn carrier="Mobitalk Internet" mcc="242" mnc="01" apn="telenor" user="dj" password="dj" proxy="10.10.10.10" port="8080" type="default,supl" />
-  <apn carrier="Talkmore" mcc="242" mnc="01" apn="telenor" port="default,supl" type="default,supl,mms" />
-  <apn carrier="Mobitalk MMS" mcc="242" mnc="01" apn="telenor" user="dj" password="dj" mmsc="http://mmsc/" mmsproxy="10.10.10.11" mmsport="8080" type="mms" />
+  <apn carrier="Ventelo Internet" mcc="242" mnc="01" apn="internet.ventelo.no" type="default,supl" />
+  <apn carrier="Ventelo MMS" mcc="242" mnc="01" apn="mms.ventelo.no" user="ventelo" password="1111" mmsc="http://mmsc/" mmsproxy="10.10.10.11" mmsport="8080" type="mms" />
+  <apn carrier="Telenor" mcc="242" mnc="01" apn="telenor" proxy="10.10.10.10" port="8080" mmsc="http://mmsc/" mmsproxy="10.10.10.11" mmsport="8080" authenticationtype="PAP" type="default,supl,mms" />
+  <apn carrier="Mobitalk" mcc="242" mnc="01" apn="telenor" user="dj" password="dj" proxy="10.10.10.10" port="8080" mmsc="http://mmsc/" mmsproxy="10.10.10.11" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="Talkmore" mcc="242" mnc="01" apn="telenor" type="default,supl,mms" />
   <apn carrier="Netcom Internet" mcc="242" mnc="02" apn="internet.netcom.no" type="default,supl" />
   <apn carrier="Chess MMS" mcc="242" mnc="02" apn="mms.netcom.no" user="chess" password="chess" mmsc="http://mms/" mmsproxy="193.209.134.133" mmsport="8080" type="mms" />
   <apn carrier="Chess Internet" mcc="242" mnc="02" apn="netcom" user="chess" password="chess" proxy="10.254.254.10" port="8080" type="default,supl" />
@@ -1526,3 +1524,4 @@
   <apn carrier="Claro PA" apn="web.claro.com.pa" user="CLAROWEB" pass="CLAROWEB" type="default,supl" />
   <apn carrier="Digicel PA" apn="web.digicelpanama.com" type="default,supl"/>
 </apns>
+
