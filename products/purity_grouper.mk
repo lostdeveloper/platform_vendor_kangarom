@@ -29,4 +29,8 @@ PRODUCT_MANUFACTURER := Asus
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi BUILD_FINGERPRINT=google/nakasi/grouper:4.4.2/KOT49H/937116:user/release-keys
 PRIVATE_BUILD_DESC="nakasi-user 4.4.2 KOT49H 937116 release-keys"
 
+# Kernel inline build
+TARGET_KERNEL_SOURCE := kernel/asus/grouper
+TARGET_KERNEL_CONFIG := kangaroo_defconfig
+
 endif
