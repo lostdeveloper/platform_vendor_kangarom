@@ -74,4 +74,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Stk
        
+# CM bits
+
+PRODUCT_PACKAGES += \
+    Apollo \
+    CMFileManager \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat \
+    ntfsfix \
+    ntfs-3g
+    
 
